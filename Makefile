@@ -1,7 +1,7 @@
 all: main
 
 main: main.cc 
-	g++ -g --coverage main.cc -o regex	
+	g++ --std=c++11 -g --coverage main.cc -o regex	
 
 clean:
 	rm -rf regex *.gc*
