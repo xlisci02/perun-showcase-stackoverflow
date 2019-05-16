@@ -25,7 +25,7 @@ Run the following and close the configuration file that pops up:
 ## Make sure your account's default identity is set
 Run the following command to check your git settings:
 
-	git config --list --show-origin
+	git config --list
 
 In case your identity is not defined, set your user name and email address like this
 
